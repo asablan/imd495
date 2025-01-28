@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Build files
+dist/
+build/
+public/css/app.css
+public/js/app.js
+*.map
+
+# Temporary files
+tmp/
+temp/
+*.bak
+*.swp
+*.tmp
+~*
+
+# Composer vendor directory (if PHP project)
+vendor/
+
+# SASS/SCSS cache
+.sass-cache/
+
+# Ignore compiled Python files if Python is in the project
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac-specific files
+*.DS_Store
+
+# Exclude test coverage reports
+coverage/
+*.lcov
